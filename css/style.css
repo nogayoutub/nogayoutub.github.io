@@ -1,0 +1,51 @@
+#logo-title {
+}
+
+::selection {
+    font-family: 'Alatsi', sans-serif;
+    color: #e6e6e6;
+    background-color: #00cdff;
+}
+
+.container {
+    margin-left: 10%;
+    margin-top: 18%;
+    border-left: 2 solid;
+}
+
+h1 {
+}
+
+#title {
+    font-size: 50px;
+}
+
+.220-blue {
+    color: #1cb5ff;
+}
+
+.220-blue {
+    color: #00cdff;
+}
+
+.220-blue {
+    color: #00b2ff;
+}
+
+.220-blue {
+    color: #d40000;
+}
+
+.button {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: lighter;
+    background-color: #00c2ff;
+    border-top: 3px solid #00c3ff;
+    border-left: 3px solid #00c2ff;
+    border-bottom: 3px solid #00c3ff;
+    border-style: solid;
+    border-right: 3px solid #00c2ff;
+    margin-left: 12%;
+    padding: 1px 1%;
+}

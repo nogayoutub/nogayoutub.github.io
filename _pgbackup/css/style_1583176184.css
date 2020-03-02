@@ -1,0 +1,8 @@
+#logo-title {
+}
+
+::selection {
+    font-family: 'Alatsi', sans-serif;
+    color: #e6e6e6;
+    background-color: #00cdff;
+}

@@ -1,0 +1,36 @@
+#logo-title {
+}
+
+::selection {
+    font-family: 'Alatsi', sans-serif;
+    color: #e6e6e6;
+    background-color: #00cdff;
+}
+
+.container {
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+h1 {
+}
+
+#title {
+    font-size: 50px;
+}
+
+.220-blue {
+    color: #1cb5ff;
+}
+
+.220-blue {
+    color: #00cdff;
+}
+
+.220-blue {
+    color: #00b2ff;
+}
+
+.220-blue {
+    color: #d40000;
+}
