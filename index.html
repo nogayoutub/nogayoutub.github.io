@@ -2,26 +2,37 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>New page</title>
-        <link href="css/style.css" rel="stylesheet">
+        <!-- Favicons-->
+        <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+        <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+        <title>Materialize</title>
+        <!-- Materialize core CSS -->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="assets/js/html5shiv.js"></script>
+            <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+        <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
         <script>/* Pinegrow Interactions, do not remove */ try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id')?document.documentElement.hasAttribute('data-pg-mobile'):(screen.width<1000&&screen.height<1000)){pgcss+='html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}';}else{pgcss+='html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}';}style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}</script>
     </head>
     <body style="font-family: 'Roboto', sans-serif;">
-        <section style="height: 100vh;">
-            <h2 style="text-align: center; margin-top: 1%;"><span style="font-style: italic;">fly</span><span class="220-blue" style="color: #00bdff; font-weight: bold;">220</span></h2>
-            <div class="container">
-                <h1 id="title" style="margin-bottom: 2%;" data-pg-ia-scene='{"d":"100%","s":"onCenter","l":[{"a":{"n":"","l":[{"t":"","l":[{"t":"tween","p":0,"d":1.02,"l":{}},{"t":"tween","p":0.2,"d":0.82,"l":{"x":"-100"}}]}]}}]}'>Fly the&nbsp;<span style="color: #00bdff;">world</span></h1>
-                <button class="button" data-pg-ia='{"l":[{"trg":"mouseenter","mm_a":"run","a":{"n":"","l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"backgroundColor":"#fefefe"}},{"t":"tween","p":0,"d":0.5,"l":{"color":"#00bdff"}}]}]}},{"trg":"mouseleave","a":{"n":"","l":[{"t":"","l":[{"t":"tween","p":0,"d":0.5,"l":{"backgroundColor":"#00c2ff"}},{"t":"tween","p":0,"d":0.5,"l":{"color":"#ffffff"}}]}]}}]}' data-pg-ia-scene='{"d":"100%","s":"onCenter","l":[{"a":{"n":"","l":[{"t":"","l":[{"t":"tween","p":0,"d":1,"l":{}},{"t":"tween","p":0.19,"d":0.81,"l":{"x":"101"}},{"t":"tween","p":0.3,"d":0.5,"l":{"autoAlpha":"0"}}]}]}}]}'>Join us</button>
-            </div>
-            <div style="text-align: center; margin-top: 15%;">
-                <i class="fa-angle-down infinite fas" style="font-size: 44px; color: #b1b1b1;"></i>
-            </div>
+        <!-- Materialize core JavaScript -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="materialize/js/materialize.js"></script>
+        <section id="section-top">
+            <h2 class="logo">Fly<span class="blue">220</span></h2>
+            <button data-pg-ia='{"l":[{"trg":"mouseenter","a":{"n":"","l":[{"t":"","l":[{"t":"tween","p":0,"d":1,"l":{"backgroundColor":"#ffffff"}},{"t":"tween","p":0,"d":1,"l":{"color":"#00bbff"}}]}]},"d":"300ms"},{"trg":"mouseleave","d":"300ms","a":{"n":"","l":[{"t":"","l":[{"t":"tween","p":0,"d":1,"l":{"backgroundColor":"#00bbff","color":"#ffffff"}}]}]}}]}' class="join-us-button join-us" style="grid-area:3 / 2 / 4 / 3;">Join us</button>
+            <h1 class="title" data-pg-ia-scene='{"d":"100%","s":"onCenter","l":[{"a":{"n":"","l":[{"t":"","l":[{"t":"tween","p":0,"d":0.99,"l":{}},{"t":"tween","p":0.2,"d":0.2,"l":{"opacity":"0","x":"-100px"}}]},{"t":"$.join-us-button","l":[{"t":"tween","p":0.2,"d":0.2,"l":{"opacity":"0","x":"100px"}}]}]}}]}'>We fly the&nbsp;<span class="220-blue blur blue">world</span></h1>
         </section>
-        <section class="pg-empty-placeholder" style="height: 100vh;"></section>
+        <section id="section-top">
+</section>
         <script type="text/javascript" src="pgia/lib/pgia.js"></script>
         <script type="text/javascript" src="https://use.fontawesome.com/releases/v5.12.1/js/all.js"></script>
     </body>
